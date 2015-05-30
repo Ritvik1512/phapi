@@ -28,7 +28,7 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      #Set-Cookie:
+      Set-Cookie:
       - __cfduid=dd57cec5cdbcdfdc0eacbca9dcc24975f1419537321; expires=Fri, 25-Dec-15
         19:55:21 GMT; path=/; domain=.producthunt.com; HttpOnly
       X-Frame-Options:
@@ -43,13 +43,13 @@ http_interactions:
       - no-cache
       Etag:
       - 'W/"63ea65f71cf51e1ca20d867185faf38c"'
-      #X-Request-Id:
+      X-Request-Id:
       - 862f73c7-4058-4b4e-a47f-5e03ffdcf756
       X-Runtime:
       - '0.019020'
       Via:
       - 1.1 vegur
-      #Cf-Ray:
+      Cf-Ray:
       - 19e798860dd7036e-LAX
     body:
       encoding: UTF-8
